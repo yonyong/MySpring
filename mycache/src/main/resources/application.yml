@@ -1,0 +1,18 @@
+hello:
+  msg: hollyshit
+
+debug: true
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    username: root
+    password: root
+    url: jdbc:mysql://192.168.229.131:3306/yspring?useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.jdbc.Driver
+  thymeleaf:
+    mode: LEGACYHTML5
+    encoding: UTF-8
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+
